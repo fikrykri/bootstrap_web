@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+.media-body a{
+    text-decoration: none;
+}
+
+/* ini adalah style .jumbotron */
+.jumbotron {
+  background-image: url(img/genshin.jpg);
+  background-size: cover;
+  height: 750px;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.jumbotron .display-4 {
+  color: white;
+  margin-top: 200px;
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 25px;
+}
+
+.jumbotron hr {
+  border-color: lightblue;
+  width: 70px;
+  border-width: 3px;
+}
+
+.jumbotron .btn {
+  background-color: lightblue;
+  border: none;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 40px;
+}
+
+/* Ini adalah style slider */
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  margin-top: -60px;
+}
+
+.carousel-caption .display-4 {
+  margin-top: -350px;
+}
+
+.carousel-caption hr {
+  border-color: white;
+  width: 100px;
+  border-width: 2px;
+}
+
+.carousel-caption .btn {
+  border: none;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 40px;
+}
+
+/* Style image circle */
+
+.box-image {
+  width: 40%;
+  margin: auto;
+}
+
+.img-profil{
+  width: 200px;
+  height: 200px;
+	top: 25px;
+	margin-left: 40px;
+}
+.img-profil .foto {
+	height: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0px -50px;
+	border-radius: 300px;
+}
+
+.card {
+  height: 350px;
+}
+
+.card img {
+  height: 150px;
+  object-fit: contain;
+}
